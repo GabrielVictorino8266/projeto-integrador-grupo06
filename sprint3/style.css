@@ -1,3 +1,7 @@
+/* importacao de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+
 /* Codigo CSS */
 html, *{
     margin: auto;
@@ -181,4 +185,16 @@ footer{
 #texto-rodape{
     margin: auto;
     height: auto;
+}
+
+/* Pagina Sobre Nos */
+
+.sobre{
+    font-family: 'Inter';
+    width: 550px;
+}
+
+.rede-social-img{
+    width: 25px;
+    height: 25px;
 }
