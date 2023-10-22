@@ -1,40 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProzTech - Blog de Tecnologia</title>
+    <title>ProzTech - Login</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
+
     <header>
-        <div>
-            <a href="./index.html"><img src="./img/proztech.png" alt="nossalogo" width="250" height="90"></a>
+        <a href="./index.html" id="titulo-cabecalho">ProzTech</a>
 
-            <nav>
-                <a href="./sobrenos.html">Sobre</a>
-                <a href="./login.html">Entrar</a>
-                <a href="./cadastro.html">Cadastre-se</a>
-            </nav>
-        </div>
+        <nav class="menu">
+            <a href="./sobrenos.html" class="item-menu">Sobre</a>
+            <a href="./login.html" class="item-menu">Entrar</a>
+            <a href="./cadastro.html" id="btn-cadastro">Cadastre-se</a>
+        </nav>
     </header>
-
     <main>
-        <div id="login" class="login-container">
-            <h2>Login</h2>
-            <label for="username">Nome de Usuário</label>
-            <input type="text" id="username" name="username" required>
-            <label for="password">Senha</label>
-            <input type="password" id="password" name="password" required>
-            <button class="btn-submit">Entrar</button>
+        <div class="login-container">
+            <h2 class="text-center">Login</h2>
+            <form action="#" method="post">
+                <div class="input-group">
+                    <label for="username">Usuário</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <button type="submit">Entrar</button>
+            </form>
         </div>
     </main>
 
     <footer>
-        <h1>2023</h1>
-        <p>ProzTech - Grupo 06</p>
+        <p>2023 ProzTech - Todos os direitos reservados</p>
     </footer>
+
 </body>
 
 </html>

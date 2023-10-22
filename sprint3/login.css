@@ -1,0 +1,126 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 110px;
+    width: 100%;
+    background-color: #071E26;
+}
+
+#titulo-cabecalho{
+    font-size: 36px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-left: 20%;
+}
+
+.menu, button{
+    overflow: visible;
+}
+
+.item-menu{
+    color: #fff;
+    font-family: "inter", Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+
+    margin-right: 25px;
+}
+
+.item-menu:hover{
+    transition: 0.5s;
+    color: #c5c0c0;
+}
+
+#btn-cadastro{
+    color: #071E26;
+    font-family: "inter", Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 19px;
+    padding-right: 19px;
+
+    background: #fff;
+    border-radius: 25px;
+    margin-right: 25px;
+}
+
+#btn-cadastro:hover{
+    transition: 0.5s;
+    background-color: #d3cdcd;
+}
+
+ footer {
+    background-color: #071E26;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #071E26;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #09434B;
+}
+
+.text-center {
+    text-align: center;
+}
