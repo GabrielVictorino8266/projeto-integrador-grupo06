@@ -194,6 +194,7 @@ footer{
 .sobre{
     font-family: 'Inter';
     width: 550px;
+    font-size: 14px;
 }
 
 .rede-social-img{
@@ -225,7 +226,7 @@ label {
     margin-bottom: 10px;
 }
 
-input[type="text"], input[type="password"] {
+input[type="text"], input[type="password"], input[type="email"] {
     width: 95%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -336,8 +337,47 @@ button:hover {
         /* padding: auto; */
     
         font-size: 12px;
+
+        }
+        /* Pagina Sobre */
+
+        .sobre{
+            font-family: 'Inter';
+            width: 320px;
+            height: auto;
+            font-size: 14px;
+            text-align: justify;
+        }
+        
+        .rede-social-img{
+            width: 25px;
+            height: 25px;
+        }
+
+        /* Pagina Cadastro */
+
+        .login-container {
+            width: 60%;
+            max-width: 400px;
+            margin: 15px auto;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"], input[type="password"], input[type="email"] {
+            width: 90%;
+            padding: 7px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        label{
+            font-size: 14px;
+        }
     }
-  }
+ 
 
 
 
