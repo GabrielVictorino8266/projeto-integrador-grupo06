@@ -27,6 +27,7 @@ header {
     color: #fff;
     font-family: 'inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
+    margin-left: 20%;
 }
 
 .menu, button{
