@@ -3,33 +3,31 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Importacao de Fontes Estilizadas -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-    
-    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <title>ProzTech - Blog de Tecnologia</title>
-
     <link rel="stylesheet" href="style.css">
     <script src="./script.js" defer></script>
 </head>
 
 <body>
-    <header>
-            <a href="./index.html" id="titulo-cabecalho">ProzTech</a>
+    <header class="header">
+        <a href="./index.html" id="titulo-cabecalho">ProzTech</a>
 
-            <nav class="menu">
-                <a href="./sobrenos.html" class="item-menu">Sobre</a>
-                <a href="./login.html" class="item-menu">Entrar</a>
-                <a href="./cadastro.html" id="btn-cadastro">Cadastre-se</a>
-            </nav>
+        <nav class="menu">
+            <button class="btn-menu">
+                Menu
+                <span class="hamburger"></span>
+            </button>
+            <ul class="item-menu">
+                <li><a href="./sobrenos.html">Sobre</a></li>
+                <li><a href="./login.html">Entrar</a></li>
+                <li><a href="./cadastro.html" >Cadastre-se</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main class="conteudo-index">
-        <section>            
+    <main class="conteudo-index">          
             <section class="menu-posts">
                 <article class="post">
                     <img src="#" alt="Foto de Perfil-1">
@@ -61,12 +59,11 @@
                         incidunt illum ipsa? Quod!</p>
                 </article>
             </section>
-        </section>
     </main>
 
-    <footer>
-        <h1 id="ano-rodape">2023</h1>
-        <p id="texto-rodape">ProzTech - Todos os direitos reservados</p>
+    <footer class="footer">
+        <h1>2023</h1>
+        <p>ProzTech - Todos os direitos reservados</p>
     </footer> 
 </body>
 
