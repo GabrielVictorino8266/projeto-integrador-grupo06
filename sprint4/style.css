@@ -119,7 +119,15 @@ header {
 }
 
 .post, p{
-    margin-bottom: 87px;
+    margin-bottom: 40px;
+}
+
+.like-btn, .unlike-btn{
+    background-color:  #0088B1;
+    margin-top: 0;
+    margin-bottom: 20px;
+    height: 32px;
+    width: 78px;
 }
 
 
@@ -259,6 +267,10 @@ button {
 
 button:hover {
     background-color: #09434B;
+}
+
+.artText{
+    text-align: justify;
 }
 
 /* Responsividade Index Html */

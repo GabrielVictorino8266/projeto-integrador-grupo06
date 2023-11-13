@@ -10,11 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     
-    
     <title>ProzTech - Blog de Tecnologia</title>
 
     <link rel="stylesheet" href="style.css">
     <script src="./script.js" defer></script>
+
+    <script src="https://kit.fontawesome.com/11113ae81d.js" crossorigin="anonymous" defer></script>
 </head>
 
 <body>
@@ -35,29 +36,36 @@
                     <img src="./img/Gabriel Victorino.jpg" alt="Foto de Perfil-1">
 
                     <h1><a href="./artigo1.html">NASA vs NETFLIX</a></h1>
+
+                    
                     <!--O conteúdo dos artigos aqui na página index precisam ser curtos, e escritos de maneira que leve a pessoa visitante a clicar no link-->
 
                     <p>Será que está acontecendo uma guerra entre a NASA e a NETFLIX? A Agência Americana lançou o serviço de streaming "NASA+" com conteúdo exclusivo sobre o espaço e exploração. </p>
+
+                    <button class="like-btn" onclick="like()">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                    </button>
+
+                    <button class="unlike-btn" onclick="unlike()">
+                        <i class="fa-regular fa-thumbs-down"></i>
+                    </button>
                 </article>
 
                 <article class="post">
-                    <img src="#" alt="Foto de Perfil-2">
+                    <img src="./img/Gabriel Victorino.jpg" alt="Foto de Perfil-2">
 
-                    <h1><a href="./artigo2.html">Titulo da Postagem 1</a></h1>
+                    <h1><a href="./artigo2.html">O Curso de Programação mais procurado.</a></h1>
 
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos ducimus molestiae aliquid aperiam
-                        eius, ut natus sed veritatis voluptatem quisquam perspiciatis vero tempora sint quae neque
-                        incidunt illum ipsa? Quod!</p>
+                    <p>A carreira de TI no Brasil permanece altamente remunerada, com salários iniciais próximos a R$5 mil para iniciantes e acima de R$40 mil para profissionais experientes. O curso mais procurado é Análise e Desenvolvimento de Sistemas, com 30,60% das buscas devido às diversas oportunidades profissionais oferecidas.</p>
+                    </button>
                 </article>
 
                 <article class="post">
-                    <img src="#" alt="Foto de Perfil-3">
+                    <img src="./img/Gabriel Victorino.jpg" alt="Foto de Perfil-3">
 
-                    <h1><a href="./artigo3.html">Titulo da Postagem 1</a></h1>
+                    <h1><a href="./artigo3.html">Construção em Fortaleza será próxima da rede de cabos submarinos do Brasil.</a></h1>
 
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos ducimus molestiae aliquid aperiam
-                        eius, ut natus sed veritatis voluptatem quisquam perspiciatis vero tempora sint quae neque
-                        incidunt illum ipsa? Quod!</p>
+                    <p>A construção de uma usina de dessalinização no Ceará gera preocupações devido ao risco de danos aos cabos submarinos de fibra óptica em Fortaleza, essenciais para a conexão à Internet no Brasil, resultando em atrasos no projeto.</p>              
                 </article>
             </section>
         </section>
