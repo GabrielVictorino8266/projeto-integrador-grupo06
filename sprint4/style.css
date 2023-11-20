@@ -273,6 +273,49 @@ button:hover {
     text-align: justify;
 }
 
+
+
+
+/* Pagina de Cadastro */
+
+.senha-criacao-condicoes, ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    padding: auto;
+    margin-bottom: 10px;
+    
+    text-align: left;
+    font-size: 12px;
+}
+
+.item-senha-criacao{
+    display: block;
+    color: black;
+}
+
+.senha-criacao-condicoes, p{
+    display: block;
+}
+
+#senhaNumerosCondicao{
+    width: 20px;
+    height: auto;
+    margin: 0;
+    padding: auto;
+}
+
+#senhaLetrasCondicao{
+    width: 20px;
+    height: auto;
+    margin: 0;
+    padding: auto;
+}
+
+
+
+
 /* Responsividade Index Html */
 
 /* CSS media query dentro de um stylesheet */
