@@ -42,11 +42,11 @@ descricao varchar(250)
 );
 
 /*Associacao entre Imagens e Categoria*/
-create table if not exists categorias_x_imagens(
+create table if not exists artigos_x_categoria(
 id_categoria int,
-id_imagem int,
 id_artigo int,
 foreign key(id_artigo) references artigos(id),
 foreign key(id_categoria) references categorias(id),
-primary key(id_categoria, id_imagem) /*Uso de uma chave primaria composta*/
+primary key(id_categoria, id_artigo) /*Uso de uma chave primaria composta*/
 );
+
