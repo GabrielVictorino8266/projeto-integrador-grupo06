@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Importacao de Fontes Estilizadas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <title>ProzTech - Blog de Tecnologia</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+
+    <script src="https://kit.fontawesome.com/11113ae81d.js" crossorigin="anonymous" defer></script>
+</head>
+
+<body>
+    <header>
+            <a href="./index.html" id="titulo-cabecalho">ProzTech</a>
+
+            <nav class="menu">
+                <a href="./sobrenos.html" class="item-menu">Sobre</a>
+                <a href="./login.html" class="item-menu">Entrar</a>
+                <a href="./cadastro.html" id="btn-cadastro">Cadastre-se</a>
+            </nav>
+    </header>
+
+    <main class="conteudo-index">
+        <section>            
+            <section class="menu-posts">
+                <article class="post">
+                    <img src="./img/Gabriel Victorino.jpg" alt="Foto de Perfil-1">
+
+                    <h1><a href="./artigo1.html">NASA vs NETFLIX</a></h1>
+
+                    
+                    <!--O conteúdo dos artigos aqui na página index precisam ser curtos, e escritos de maneira que leve a pessoa visitante a clicar no link-->
+
+                    <p>Será que está acontecendo uma guerra entre a NASA e a NETFLIX? A Agência Americana lançou o serviço de streaming "NASA+" com conteúdo exclusivo sobre o espaço e exploração. </p>
+
+                    <button class="like-btn" onclick="like()">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                    </button>
+
+                    <button class="unlike-btn" onclick="unlike()">
+                        <i class="fa-regular fa-thumbs-down"></i>
+                    </button>
+                </article>
+
+                <article class="post">
+                    <img src="./img/Pedro Paulo.jpg"  alt="Foto de Perfil-2">
+
+                    <h1><a href="./artigo2.html">O que é a computação em Nuvem?</a></h1>
+
+                    <p>Recentemente, muito têm-se falado sobre a computação em nuvem. Quais são os benefícios que esta tras, e será que ela pode mesmo ser uma revolução tecnológica?</p>
+                </article>
+
+                <article class="post">
+                    <img src="./img/Gabriel Victorino.jpg" alt="Foto de Perfil-3">
+
+                    <h1><a href="./artigo3.html">Construção em Fortaleza será próxima da rede de cabos submarinos do Brasil.</a></h1>
+
+                    <p>A construção de uma usina de dessalinização no Ceará gera preocupações devido ao risco de danos aos cabos submarinos de fibra óptica em Fortaleza, essenciais para a conexão à Internet no Brasil, resultando em atrasos no projeto.</p>              
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <h1 id="ano-rodape">2023</h1>
+        <p id="texto-rodape">ProzTech - Todos os direitos reservados</p>
+    </footer> 
+</body>
+
+</html>
