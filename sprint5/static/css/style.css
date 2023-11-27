@@ -3,16 +3,17 @@
 
 
 /* Codigo CSS */
-html, *{
+html,
+* {
     margin: auto;
     padding: auto;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* border: 1px solid red; */
 }
 
 
 /* Pagina principal */
-body{
+body {
     font-family: 'inter', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -28,7 +29,7 @@ header {
     background-color: #071E26;
 }
 
-#titulo-cabecalho{
+#titulo-cabecalho {
     font-size: 36px;
     text-decoration: none;
     color: #fff;
@@ -36,11 +37,12 @@ header {
     font-weight: 600;
 }
 
-.menu, button{
+.menu,
+button {
     overflow: visible;
 }
 
-.item-menu{
+.item-menu {
     color: #fff;
     font-family: "inter", Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
@@ -48,101 +50,108 @@ header {
     margin-right: 25px;
 }
 
-.item-menu:hover{
+.item-menu:hover {
     transition: 0.5s;
     color: #c5c0c0;
 }
 
-#btn-cadastro{
-        color: #071E26;
-        font-family: "inter", Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
-        font-weight: 700;
-        text-align: center;
-        text-decoration: none;
+#btn-cadastro {
+    color: #071E26;
+    font-family: "inter", Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
 
-        
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 19px;
-        padding-right: 19px;
-        
-        background: #fff;
-        border-radius: 25px;
-        margin-right: 25px;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 19px;
+    padding-right: 19px;
+
+    background: #fff;
+    border-radius: 25px;
+    margin-right: 25px;
 }
 
-#btn-cadastro:hover{
+#btn-cadastro:hover {
     transition: 0.5s;
     background-color: #d3cdcd;
 }
 
 /* MAIN */
 
-.senha-criacao-condicoes > p {
+.senha-criacao-condicoes>p {
     margin-bottom: 20px;
 }
 
-.conteudo-index{
+.conteudo-index {
     height: 1100px;
     width: 100%;
     margin: auto;
     padding: auto;
 }
 
-.menu-posts{
+.menu-posts {
     overflow-y: scroll;
     overflow-x: hidden;
 
-    margin-top: 105px;
+    /* margin-top: 105px; */
     margin-bottom: auto;
 
     width: 750px;
-    height: 650px;
+    /* height: 650px; */
 }
 
-.post{
+.post {
     background-color: #0088B1;
     color: #fff;
     border-radius: 20px;
 
     padding-left: 41px;
     padding-right: 41px;
-    padding-bottom: auto;
+    padding-bottom: 20px;
     padding-top: 16px;
     width: 600px;
+    height: auto;
 }
 
-.post, h1{
+.post,
+h1 {
     margin-top: 15px;
     margin-bottom: 10px;
 }
 
-.post, a{
+.post,
+a {
     color: #fff;
     text-decoration: none;
 }
 
-.post, p{
+.post,
+p {
     margin-bottom: 40px;
 }
 
-.like-btn, .unlike-btn{
-    background-color:  #0088B1;
+.like-btn,
+.unlike-btn {
+    background-color: #0088B1;
     margin-top: 0;
     margin-bottom: 20px;
     height: 32px;
     width: 78px;
 }
 
+/* .autor {
+    margin-bottom: 20%;
+} */
 
-
-.main-post{
+.main-post {
     overflow-y: scroll;
     overflow-x: auto;
     height: 750px;
 }
 
-img{
+img {
     background-color: aliceblue;
     border-radius: 200px;
     height: 40px;
@@ -150,7 +159,7 @@ img{
 }
 
 
-aside{
+aside {
     font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
 
@@ -159,14 +168,14 @@ aside{
     height: 450px;
     width: 260px;
     border-radius: 20px;
-    
+
     margin-top: 100px;
     margin-bottom: 10px;
     margin-left: 30px;
     padding: 15px;
 }
 
-#tags-titulo{
+#tags-titulo {
     font-size: 16px;
     font-weight: 600;
     text-align: left;
@@ -174,7 +183,7 @@ aside{
     margin-left: 29px;
 }
 
-.tags-menu{
+.tags-menu {
     font-size: 12px;
     text-align: left;
     margin-top: 10px;
@@ -185,7 +194,7 @@ aside{
 
 /* RODAPE */
 
-footer{
+footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -201,14 +210,14 @@ footer{
     padding: auto;
 }
 
-#ano-rodape{
+#ano-rodape {
     font-size: 20px;
     height: auto;
     margin-top: 20px;
     margin-bottom: 5px;
 }
 
-#texto-rodape{
+#texto-rodape {
     margin: auto;
     /* height: auto; */
 }
@@ -217,19 +226,19 @@ footer{
 
 /* Pagina Sobre Nos */
 
-.sobre{
+.sobre {
     font-family: 'Inter';
     width: 550px;
     font-size: 14px;
 }
 
-.rede-social-img{
+.rede-social-img {
     width: 25px;
     height: 25px;
 }
 
 /* Pagina Cadastro */
-.main-cadastro{
+.main-cadastro {
     background-color: #d2d2d3;
 }
 
@@ -252,7 +261,9 @@ label {
     margin-bottom: 10px;
 }
 
-input[type="text"], input[type="password"], input[type="email"] {
+input[type="text"],
+input[type="password"],
+input[type="email"] {
     width: 95%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -273,7 +284,7 @@ button:hover {
     background-color: #09434B;
 }
 
-.artText{
+.artText {
     text-align: justify;
 }
 
@@ -282,35 +293,37 @@ button:hover {
 
 /* Pagina de Cadastro */
 
-.senha-criacao-condicoes, ul{
+.senha-criacao-condicoes,
+ul {
     display: flex;
     justify-content: left;
     align-items: center;
     flex-direction: column;
     padding: auto;
     margin-bottom: 10px;
-    
+
     text-align: left;
     font-size: 12px;
 }
 
-.item-senha-criacao{
+.item-senha-criacao {
     display: block;
     color: black;
 }
 
-.senha-criacao-condicoes, p{
+.senha-criacao-condicoes,
+p {
     display: block;
 }
 
-#senhaNumerosCondicao{
+#senhaNumerosCondicao {
     width: 20px;
     height: auto;
     margin: 0;
     padding: auto;
 }
 
-#senhaLetrasCondicao{
+#senhaLetrasCondicao {
     width: 20px;
     height: auto;
     margin: 0;
@@ -329,19 +342,19 @@ button:hover {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-    
+
         height: 90px;
         width: 100%;
         background-color: #071E26;
 
         font-size: 12px;
     }
-    
-    #titulo-cabecalho{
+
+    #titulo-cabecalho {
         font-size: 18px;
     }
 
-    #btn-cadastro{
+    #btn-cadastro {
         color: #071E26;
         font-family: "inter", Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 700;
@@ -349,18 +362,18 @@ button:hover {
         text-align: center;
         text-decoration: none;
 
-        
+
         padding-top: 4px;
         padding-bottom: 4px;
         padding-left: 10px;
         padding-right: 10px;
-        
+
         background: #fff;
         border-radius: 25px;
         margin-right: 15px;
-}
-    
-    .item-menu{
+    }
+
+    .item-menu {
         color: #fff;
         font-family: "inter", Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
         text-decoration: none;
@@ -368,10 +381,10 @@ button:hover {
         margin-right: 12px;
     }
 
-    .post{
+    .post {
         background-color: #0088B1;
         border-radius: 20px;
-    
+
         padding-left: 5px;
         padding-right: 5px;
         padding-bottom: auto;
@@ -380,22 +393,23 @@ button:hover {
         font-size: 11px;
     }
 
-    .menu-posts{
+    .menu-posts {
         overflow-y: scroll;
         overflow-x: hidden;
-    
+
         margin-top: 50px;
         margin-bottom: auto;
-    
+
         width: 350px;
         height: 650px;
     }
-    
-    .post, p{
+
+    .post,
+    p {
         margin-bottom: 30px;
     }
 
-    footer{
+    footer {
         /* display: flex;
         flex-direction: column;
         align-items: center;
@@ -409,49 +423,48 @@ button:hover {
         width: 100%; */
         height: 90px;
         /* padding: auto; */
-    
+
         font-size: 12px;
 
-        }
-        /* Pagina Sobre */
-
-        .sobre{
-            font-family: 'Inter';
-            width: 320px;
-            height: auto;
-            font-size: 14px;
-            text-align: justify;
-        }
-        
-        .rede-social-img{
-            width: 25px;
-            height: 25px;
-        }
-
-        /* Pagina Cadastro */
-
-        .login-container {
-            width: 60%;
-            max-width: 400px;
-            margin: 15px auto;
-            padding: 10px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        input[type="text"], input[type="password"], input[type="email"] {
-            width: 90%;
-            padding: 7px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-
-        label{
-            font-size: 14px;
-        }
     }
- 
 
+    /* Pagina Sobre */
 
+    .sobre {
+        font-family: 'Inter';
+        width: 320px;
+        height: auto;
+        font-size: 14px;
+        text-align: justify;
+    }
 
+    .rede-social-img {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* Pagina Cadastro */
+
+    .login-container {
+        width: 60%;
+        max-width: 400px;
+        margin: 15px auto;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+        width: 90%;
+        padding: 7px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+}
