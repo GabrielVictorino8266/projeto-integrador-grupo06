@@ -1,6 +1,6 @@
-createHeader();
+// createHeader();
 createMain();
-createFooter();
+// createFooter();
 
 function createHeader() {
     const header = document.createElement('header');

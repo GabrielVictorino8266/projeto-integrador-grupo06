@@ -78,6 +78,10 @@ header {
 
 /* MAIN */
 
+.senha-criacao-condicoes > p {
+    margin-bottom: 20px;
+}
+
 .conteudo-index{
     height: 1100px;
     width: 100%;
@@ -193,20 +197,20 @@ footer{
 
     bottom: 0;
     width: 100%;
-    height: 150px;
+    height: 10%;
     padding: auto;
 }
 
 #ano-rodape{
-    font-size: 25px;
+    font-size: 20px;
     height: auto;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 #texto-rodape{
     margin: auto;
-    height: auto;
+    /* height: auto; */
 }
 
 
