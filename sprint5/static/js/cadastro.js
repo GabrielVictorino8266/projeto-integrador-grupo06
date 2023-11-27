@@ -29,7 +29,7 @@ senhaInput.addEventListener("input", function(){
     }else{
         senhaInput.setCustomValidity("");
         senhaImgletras.src= "./static/img/check.png"
-        senhaImgnumeros.src= "../static/img/check.png"
+        senhaImgnumeros.src= "./static/img/check.png"
 
     }
 })
