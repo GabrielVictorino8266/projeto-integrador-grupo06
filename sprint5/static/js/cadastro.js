@@ -24,12 +24,12 @@ const RegexSenhaCorreta = /^(?=(?:.*\d){2})(?=(?:.*[a-zA-Z]){4}).*$/;
 senhaInput.addEventListener("input", function(){
     if(!RegexSenhaCorreta.test(senhaInput.value)){
         senhaInput.setCustomValidity("4 letras e 2 numeros.");
-        senhaImgletras.src= "./img/caution.png"
-        senhaImgnumeros.src= "./img/caution.png"
+        senhaImgletras.src= "./static/img/caution.png"
+        senhaImgnumeros.src= "./static/img/caution.png"
     }else{
         senhaInput.setCustomValidity("");
-        senhaImgletras.src= "./img/check.png"
-        senhaImgnumeros.src= "./img/check.png"
+        senhaImgletras.src= "./static/img/check.png"
+        senhaImgnumeros.src= "../static/img/check.png"
 
     }
 })
