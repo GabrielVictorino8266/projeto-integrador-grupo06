@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProzTech - Blog de Tecnologia</title>
+
+    <link rel="stylesheet" href="./static/css/style.css">
+    <script src="./static/js/script.js" defer></script>
+    <script src="./static/js/cadastro.js" defer></script>
+
+</head>
+
+<body>
+
+    <main class="cadastro-main">
+        <form action="#" id="form-cadastro">
+            <div id="login" class="login-container">
+                <h2 style="text-align: center;">Registrar</h2><br>
+
+                <label for="username">Nome de Usuário:</label>
+                <input type="text" id="username" name="username" placeholder="Nome de usuario..."
+                    required><br><br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu E-mail aqui..." required><br><br>
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha Aqui..."
+                    required><br><br>
+
+                <div class="senha-criacao-condicoes">
+                    <p>Sua senha deve atender aos seguintes requisitos:</p>
+
+                    <ul class="itens-senha-criacao">
+                        <li class="item-senha-criacao">
+                            <img src="./static/img/caution.png" id="senhaNumerosCondicao">
+                            Deve conter, pelo menos, 2 números.
+                        </li>
+                        <li class="item-senha-criacao">
+                            <img src="./static/img/caution.png" id="senhaLetrasCondicao">
+                            Deve conter, pelo menos, 4 letras ou caracteres.
+                        </li>
+                    </ul>
+                </div>
+
+
+                <button type="submit" class="btn-submit">Cadastrar</button>
+
+
+            </div>
+        </form>
+    </main>
+
+</body>
+
+</html>
