@@ -467,4 +467,9 @@ p {
     label {
         font-size: 14px;
     }
+
+    iframe{
+        width: 250px;
+        height: 100px;
+    }
 }
